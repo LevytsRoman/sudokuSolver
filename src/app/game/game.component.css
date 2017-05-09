@@ -1,0 +1,21 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  max-width: 363px;
+}
+
+.board:nth-child(3n+1) {
+  border-bottom: darkgrey solid 1px;
+}
+
+.row:nth-child(3n+0) {
+  border-right: darkgrey solid 1px;
+}
+
+.row {
+  /*flex: auto;*/
+  margin: 0;
+  padding: 0;
+}

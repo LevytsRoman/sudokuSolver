@@ -1,0 +1,9 @@
+<div class="">
+  <h1>this is where the board goes</h1>
+  <ul *ngFor="let row of rows" class="board">
+    <ul *ngFor="let cell of row" class="row">
+      <app-cell [val]="cell"></app-cell>
+    </ul>
+  </ul>
+  <button type="button" name="solve" (click)="solve()">solve</button>
+</div>

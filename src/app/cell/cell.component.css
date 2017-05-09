@@ -1,0 +1,12 @@
+.cell {
+  margin: 0;
+  padding-left: 25%;
+  border-left: darkgrey solid 1px;
+  border-top: darkgrey solid 1px;
+  width: 40px;
+  height: 40px;
+  color: purple;
+  box-sizing: border-box;
+  font-size: 30px;
+  line-height: 40px;
+}
